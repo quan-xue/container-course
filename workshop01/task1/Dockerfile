@@ -18,7 +18,8 @@ RUN pip3 install -r requirements.txt
 ## run
 #run environment variables
 ENV APP_DIR=/app
-ENV PORT=3000
+ENV PORT=5000
+ENV INSTANCE_NAME="myapp" INSTANCE_HASH="abcd12345"
 
 # what are the required ports
 EXPOSE ${PORT}
@@ -27,4 +28,4 @@ WORKDIR ${APP_DIR}
 
 # run the app
 ENTRYPOINT python main.py
-CMD ["--port", "3000"]
+CMD ["--port", "5000"]
