@@ -27,5 +27,4 @@ WORKDIR ${APP_DIR}
 
 # run the app
 ENTRYPOINT python main.py
-
-# CMD ["--port", "3000]
+CMD ["--port", "3000"]
