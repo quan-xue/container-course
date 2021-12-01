@@ -7,7 +7,7 @@ metadata:
       name: bgg-cm
 data:
    BGG_DB_USER: root
-   BGG_DB_HOST: bggdb-svc.bggns1
+   BGG_DB_HOST: bggdb-svc.bggns
 
 ---
 apiVersion: v1
