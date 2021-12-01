@@ -8,7 +8,7 @@ metadata:
 spec:
    ingressClassName: nginx
    rules:
-   - host: bgg-188.166.198.58.nip.io
+   - host: bgg-188.166.198.58.nip.io #ip address is nginx controller
      http:
         paths:
         - path: /v1
